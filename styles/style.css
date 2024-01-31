@@ -1,0 +1,136 @@
+
+
+.NavButton{
+    color: var(--Dark-02, #414040);
+    font-family: "EB Garamond";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  
+}
+
+.btn-pro{
+    border-radius: 10px;
+    height: 52px;
+    margin-left:4px;
+    width:100px;
+    font-weight:600 ;
+    margin-bottom: 30px;
+}
+.searchbar{
+    margin-top:420px;
+    margin-left:400px;
+}
+
+.brownie-button{
+    background-color: #b68c5a;
+    height:32px;
+    rotate: 0.1deg;
+   margin-left: 3px;
+    border-radius: 4px;
+}
+.brownie-button2{
+    background-color: #b68c5a;
+    height:32px;
+    width:620px;
+    rotate: 0.1deg;
+    margin-left: 3px;
+    border-radius: 4px;
+}
+.brownie-button3{
+    background-color: #b68c5a;
+    height:32px;
+   
+    rotate: 0.1deg;
+    margin-left: 3px;
+    border-radius: 12px;
+}
+.foot-head{
+    font-weight: 700;
+}
+
+
+.ban-text{
+    font-family: "EB Garamond";
+    font-weight: 800;
+    margin-top:100px;
+    margin-left: 180px;
+}
+
+.bolden{
+    font-weight: 700;
+}
+.para{
+    margin-top:340px;
+    margin-left: 260px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px)
+{
+    .ban-text{
+        
+        margin-top:50px;
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 556px)
+{
+    .ban-text{
+        
+        margin-top:40px;
+        margin-left: 80px;
+        
+    }
+    .para{
+        margin-top:135px;
+        font-size: 12px;
+        margin-left: 40px;
+    }
+
+    .searchbar{
+        margin-top:160px;
+        margin-left:100px;
+    }
+    .brownie-button{
+        background-color: #b68c5a;
+        align-items: center;
+        font-size:16px;
+        width: 65px;
+        height: 25px;
+        margin-top: 20px;
+        border-radius: 5px;
+        margin-left: 4px;
+       
+    }
+    .btn-pro{
+        border-radius: 10px;
+        margin-top: 5px;
+        margin-left:4px;
+       
+        font-weight:600;
+        margin-bottom: 30px;
+    }
+
+    .brownie-button2{
+        background-color: #b68c5a;
+        height:32px;
+        width:430px;
+        rotate: 0.1deg;
+        margin-left: 3px;
+        border-radius: 4px;
+    }
+    .brownie-button3{
+        background-color: #b68c5a;
+        height:40px;
+       margin-top: 50px;
+        rotate: 0.1deg;
+        margin-left: 6px;
+        border-radius: 12px;
+        margin-bottom:10px;
+        width:35px;
+    }
+
+}

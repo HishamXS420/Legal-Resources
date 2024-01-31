@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/1ab56f09f6.js" crossorigin="anonymous"></script>
+
+    <!-- tailwind css  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                brownie: '#B68C5A',
+              }
+            }
+          }
+        }
+      </script>
+      <link rel="stylesheet" href="styles/style.css">
+  
+</head>
+<body class="bg-slate-100">
+    <header class="container mx-auto">
+        <!-- nav  -->
+        <!-- banner  -->
+        <nav class="lg:ml-9">
+            <div class="navbar bg-slate-100">
+                <div class="flex-none">
+                  <button class="sm:mr-5 lg:hidden btn btn-square btn-ghost">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                  </button>
+                </div>
+                <div class=" flex-1 gap-x-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 45 45" fill="none">
+                        <path d="M19.7224 14.1357L30.0959 3.84753L40.7683 14.5199L30.4375 24.808L19.7224 14.1357Z" fill="#B68C5A"/>
+                        <path d="M18.8687 12.4708C18.2283 13.1111 17.2038 13.1111 16.6061 12.4708L16.5208 12.3854C15.9231 11.7878 15.9658 10.934 16.4354 10.2509C18.954 6.28084 23.223 2.09729 26.4247 0.304336C27.1504 -0.0798678 27.9615 -0.165247 28.5591 0.432403L28.6872 0.560471C29.2849 1.15812 29.2849 2.18266 28.6872 2.78031L18.8687 12.4708Z" fill="#B68C5A"/>
+                        <path d="M32.0597 25.7045C31.4193 26.3448 31.4193 27.3267 32.0597 27.967L32.145 28.0524C32.7427 28.65 33.5965 28.6073 34.2795 28.1804C38.2923 25.6618 42.5185 21.4355 44.3115 18.2338C44.6957 17.5081 44.7811 16.697 44.1834 16.0994L44.0553 15.9713C43.4577 15.3737 42.4332 15.331 41.7928 15.9713L32.0597 25.7045Z" fill="#B68C5A"/>
+                        <path d="M1.23799 43.1644C1.02454 43.079 0.939164 42.8229 0.768407 42.6948C0.256135 42.0118 0 41.158 0 40.3042C0.0426893 39.237 0.469582 38.2551 1.28068 37.5294L22.1557 19.173L23.7779 20.7525L25.3574 22.3747L6.87297 43.1217C6.14726 43.8901 5.1654 44.3597 4.09817 44.4024C3.24439 44.4024 2.3906 44.1462 1.70757 43.634C1.53681 43.4632 1.32337 43.3778 1.23799 43.1644Z" fill="#B68C5A"/>
+                        <path d="M19.2102 36.761L18.0149 38.127V39.5358H16.905L15.4109 41.0299V45H43.8846V41.0299L42.3478 39.5358H41.2379V38.127L40.0426 36.761H19.2102Z" fill="#B68C5A"/>
+                      </svg>
+                  <a class="NavButton btn btn-ghost text-xl"><p class="text-black">Justice</p></a>
+                </div>
+                <div class=" hidden md:block lg:ml-12">
+                    <a class="text-slate-600 text-lg ml-6">Home</a>
+                    <a class="text-slate-600 text-lg ml-6">Services ></a>
+                    <a class="text-slate-600 text-lg ml-6">Cases ></a>
+                    <a class="text-slate-600 text-lg ml-6">Blog ></a>
+                    <a class="text-slate-600 text-lg ml-6">Contact Us ></a>
+                </div>
+                <div class="ml-8">
+                    <button class="hidden md:block px-6 z-10 ml-24 mr-16 btn brownie-button border-white"><p class="text-slate-600 text-white">Free Consultation</p></button>
+                </div>
+                <div class="lg:hidden flex-none">
+                  <button class="btn btn-square btn-ghost">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-5 h-5 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg>
+                  </button>
+                </div>
+              </div>
+            </nav>
+            <h3 class="absolute ban-text text-4xl sm:text-6xl lg:text-8xl text-white text-center">We Provide Effective <br>Legal Solutions</h3>
+            <p class="absolute para text-center text-white">There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.</p>
+            <div class="searchbar absolute">
+                <input class="lg:mb-6 lg:h-8 w-48 pl-2 lg:w-96  lg:px-2 bg-white" type="search" placeholder="search your services">
+                <button class="lg:mt-12 lg:mb-1 radius-xl brownie-button border-white"><p class="pb-10 lg:mb-20  lg:pt-1 lg:p-4 text-white">Search</p></button>
+            </div>
+           
+        <div class="lg:ml-9">
+            <img src="images/banner.png" alt="">
+            
+        </div>
+     
+      
+    </header>
+    <main >
+        <section class="container mx-auto m-12 text-center">
+            <h1 class=" text-3xl text-5xl text-black m-5 ">The Legal Practice Area</h1>
+            <p class=" text-black m-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        </section>
+        <section class="m-1 container mx-auto grid sm:grid-cols-1 lg:grid-cols-3">
+            <div class="px-24 card text-center rounded-none">
+                <img class="m-1 my-5 mx-auto" src="images/business.png" alt="">
+                <h1 class="text-black m-1 text-3xl mb-5  text-semibobld">Business Law</h1>
+                <p class="text-black">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <img class="m-1 my-5 mx-auto" src="images/Frame.png" alt="">
+            </div>
+            <div class="bg-neutral-200 px-24 card text-center  rounded-none">
+                <img class="m-1 my-5 mx-auto" src="images/criminal.png" alt="">
+                <h1 class="text-black m-1 text-3xl mb-5  text-semibobld">Criminal Law</h1>
+                <p class="text-black">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <img class="m-1 my-5 mx-auto" src="images/Frame.png" alt="">
+            </div>
+            <div class="px-24 card text-center  rounded-none">
+                <img class="m-1 my-5 mx-auto" src="images/child.png" alt="">
+                <h1 class="text-black m-1 text-3xl mb-5  text-semibobld">Child Support</h1>
+                <p class="text-black">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <img class="m-1 my-5 mx-auto" src="images/Frame.png" alt="">
+            </div>
+            <div class=" border-t-2 border-neutral-200 px-24 card text-center  rounded-none">
+                <img class="m-1 my-5 mx-auto" src="images/education.png" alt="">
+                <h1 class="text-black m-1 text-3xl mb-5  text-semibobld">Education Law</h1>
+                <p class="text-black">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <img class="m-1 my-5 mx-auto" src="images/Frame.png" alt="">
+            </div>
+            <div class="border-x-2 border-t-2 border-neutral-200 px-24 card text-center  rounded-none">
+                <img class="m-1 my-5 mx-auto" src="images/divorce.png" alt="">
+                <h1 class="text-black m-1 text-3xl mb-5  text-semibobld">Divorce Law</h1>
+                <p class="text-black">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <img class="m-1 my-5 mx-auto" src="images/Frame.png" alt="">
+            </div>
+            <div class=" border-t-2 border-neutral-200 px-24 card text-center  rounded-none">
+                <img class="m-1 my-5 mx-auto" src="images/tax.png" alt="">
+                <h1 class="text-black m-1 text-3xl mb-5  text-semibobld">Tax Law</h1>
+                <p class="text-black">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <img class="m-1 my-5 mx-auto" src="images/Frame.png" alt="">
+            </div>
+
+
+        </section>
+        <section class="container mx-auto m-12 text-center">
+            <h1 class="m-1 text-3xl text-5xl text-black m-5 ">What Our Client Say</h1>
+            <p class="m-1 text-black m-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        </section>
+        <section class="lg:pr-10 container mx-auto ">
+            <div class="carousel w-full m-5">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="images/banner.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle "><i class="fa-solid fa-arrow-left"></i></a> 
+                    <a href="#slide2" class="btn btn-circle "><i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle opacity-50 "><i class="fa-solid fa-arrow-left"></i></a> 
+                    <a href="#slide3" class="btn btn-circle opacity-50 "><i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle opacity-50 "><i class="fa-solid fa-arrow-left"></i></a> 
+                    <a href="#slide4" class="btn btn-circle opacity-50 "><i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle opacity-50 "><i class="fa-solid fa-arrow-left"></i></a> 
+                    <a href="#slide1" class="btn btn-circle opacity-50 "><i class="fa-solid fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </div>
+        </section>
+            
+        <section class="grid grid-cols-1 lg:grid-cols-2 container mx-auto m-10 pb-10">
+            <div class="mx-3 lg:ml-4 text-black">
+                <div class="mt-3 bg-neutral-300 collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" checked="checked" /> 
+                <div class="collapse-title text-xl font-medium">
+                    Are application fee waivers available?
+                </div>
+                <div class="collapse-content"> 
+                  <p>There are many variations of passages of Lorem Ipsum <br> available, but the majority have suffered alteration in some <br> form, by injected humour, . </p>
+                </div>
+              </div>
+              <div class="mt-3 bg-neutral-300 collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" /> 
+                <div class="collapse-title text-xl font-medium">
+                    Are application fee waivers available?
+                </div>
+                <div class="collapse-content"> 
+                  <p>There are many variations of passages of Lorem Ipsum <br> available, but the majority have suffered alteration in some <br> form, by injected humour, .</p>
+                </div>
+              </div>
+              <div class="mt-3 bg-neutral-300 collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" /> 
+                <div class="collapse-title text-xl font-medium">
+                    Are application fee waivers available?
+                </div>
+                <div class="mt-3 bg-neutral-300 collapse-content"> 
+                  <p>There are many variations of passages of Lorem Ipsum <br> available, but the majority have suffered alteration in some <br> form, by injected humour, .</p>
+                </div>
+              </div>
+              <div class="mt-3 bg-neutral-300 collapse collapse-plus bg-base-200">
+                <input type="radio" name="my-accordion-3" /> 
+                <div class="collapse-title text-xl font-medium">
+                    Are application fee waivers available?
+                </div>
+                <div class="mt-3 bg-neutral-300 collapse-content"> 
+                  <p>There are many variations of passages of Lorem Ipsum <br> available, but the majority have suffered alteration in some <br> form, by injected humour, .</p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+                <img class="mt-8 lg:mt-0 lg:ml-10"src="images/faq.png" alt="">
+            </div>
+
+        </section>
+        <section class=" container mx-auto py-5">
+            <div class="text-black text-center my-16 ">
+                <h3 class=" text-5xl text-bold mb-3">Contact With Us</h3>
+                <p class="mt-8">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            </div>
+            <div class="mx-3 mb-5  lg:mx-0 grid grid-cols-1 lg:grid-cols-2 py-6"> 
+                <div class=" bg-neutral-200 text-black grid grid-cols-2 text-center ">
+                    <div class="border-r-2 border-neutral-300 p-10 ">
+                        <img class="mx-auto mb-3" src="images/address.png" alt="">
+                        <h3 class="text-xl bolden mb-3">Address</h3>
+                        <p>New York, NY 535022</p>
+                    </div>
+                    <div class="m-10">
+                        <img class="mx-auto mb-3" src="images/call.png" alt="">
+                        <h3 class="text-xl bolden mb-3">Call Us</h3>
+                        <p>+88 01750 00 00 00
+                            +88 01750 00 00 00</p>
+                    </div>
+                    <div class="border-r-2 border-t-2 border-neutral-300 p-10">
+                        <img class="mx-auto mb-3" src="images/email.png" alt="">
+                        <h3 class="text-xl bolden mb-3">Email Us</h3>
+                        <p>info@gmail.com
+                            info@gmail.com</p>
+                    </div>
+                    <div class="border-t-2 border-neutral-300 p-10">
+                        <img class="mx-auto mb-3" src="images/time.png" alt="">
+                        <h3 class="text-xl bolden mb-3">Working Hours</h3>
+                        <p>Mon-Fri: 9AM to 5PM
+                            Sunday: 9AM to 1 PM</p>
+                    </div>
+                </div>
+                <div class="mt-5 lg:mt-0 ml-5 text-black flex flex-col gap-y-5 ">
+                    <input class="bg-neutral-200 h-10 pl-2 text-black" type="name" placeholder="Your Name">
+                    <input class="bg-neutral-200 h-10 pl-2 text-black" type="email" placeholder="Your Email">
+                    <input class="bg-neutral-200 h-10 pl-2 text-black" type="subject" placeholder="Subject">
+                    <input class="bg-neutral-200 h-64 pl-2 text-black" type="text" placeholder="Your Message">
+                    <button class=" px-6 z-10  mr-16 btn brownie-button2 border-white"><p class="text-white">Send Message</p></button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-stone-950	 mt-20 grid lg:grid-cols-4 p-5 px-24 pt-16">
+        <div class="mb-6 lg:mb-0 lg:ml-5 lg:mr-8">
+            <div class="flex"><svg class="mt-2" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 45 45" fill="none">
+                <path d="M19.7224 14.1357L30.0959 3.84753L40.7683 14.5199L30.4375 24.808L19.7224 14.1357Z" fill="#B68C5A"/>
+                <path d="M18.8687 12.4708C18.2283 13.1111 17.2038 13.1111 16.6061 12.4708L16.5208 12.3854C15.9231 11.7878 15.9658 10.934 16.4354 10.2509C18.954 6.28084 23.223 2.09729 26.4247 0.304336C27.1504 -0.0798678 27.9615 -0.165247 28.5591 0.432403L28.6872 0.560471C29.2849 1.15812 29.2849 2.18266 28.6872 2.78031L18.8687 12.4708Z" fill="#B68C5A"/>
+                <path d="M32.0597 25.7045C31.4193 26.3448 31.4193 27.3267 32.0597 27.967L32.145 28.0524C32.7427 28.65 33.5965 28.6073 34.2795 28.1804C38.2923 25.6618 42.5185 21.4355 44.3115 18.2338C44.6957 17.5081 44.7811 16.697 44.1834 16.0994L44.0553 15.9713C43.4577 15.3737 42.4332 15.331 41.7928 15.9713L32.0597 25.7045Z" fill="#B68C5A"/>
+                <path d="M1.23799 43.1644C1.02454 43.079 0.939164 42.8229 0.768407 42.6948C0.256135 42.0118 0 41.158 0 40.3042C0.0426893 39.237 0.469582 38.2551 1.28068 37.5294L22.1557 19.173L23.7779 20.7525L25.3574 22.3747L6.87297 43.1217C6.14726 43.8901 5.1654 44.3597 4.09817 44.4024C3.24439 44.4024 2.3906 44.1462 1.70757 43.634C1.53681 43.4632 1.32337 43.3778 1.23799 43.1644Z" fill="#B68C5A"/>
+                <path d="M19.2102 36.761L18.0149 38.127V39.5358H16.905L15.4109 41.0299V45H43.8846V41.0299L42.3478 39.5358H41.2379V38.127L40.0426 36.761H19.2102Z" fill="#B68C5A"/>
+              </svg><a class="NavButton btn btn-ghost text-2xl"><p class="text-white">Justice</p></a></div>
+            <div><p class="text-white ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p></div>
+        </div>
+        <div class="sm:mb-3 lg:mb-0 text-white">
+            <h3 class="foot-head text-xl text-semibold mb-5 ">Usefull Link</h3>
+            <p class="mt-1">Homes</p>
+            <p class="mt-1">About Us</p>
+            <p class="mt-1">Cases</p>
+            <p class="lg:mt-1 lg:mb-0 mb-6">Blog</p>
+        </div>
+        <div class="mb-6 lg:mb-0 text-white">
+            <h3 class="foot-head text-xl text-semibold mb-5">Contact Now</h3>
+            <p>555 4th 5t NW, Washington
+                DC 20530, <br>United States</p>
+            <p class="mt-2">+88 01750 000 000
+                +88 01750 000 000</p>
+            <p>info@gmail.com
+                info@gmail.com</p>
+            
+        </div>
+        <div class="text-white">
+            <h3 class="foot-head text-xl text-semibold mb-5">Subscribe</h3>
+           
+            <p>Subscribe for our latest & Articles. <br> We Won’t Give You Spam Mails</p>
+            <div class="flex mt-2 ">
+                <input class="mt-12 lg:mb-6 lg:h-8 w-48 pl-2 lg:w-84  lg:px-2 bg-white" type="search" placeholder="search your services">
+            <button class="lg:mt-12 lg:mb-1 radius-xl brownie-button3 ml-1 border-white"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                <g clip-path="url(#clip0_12_37)">
+                  <path d="M12.7279 21.2427L4.52197 16.8989C10.4846 13.6228 16.9629 11.3888 23.6775 10.2931C22.5826 17.0078 20.3492 23.4863 17.0738 29.4494L12.7279 21.2427ZM12.7279 21.2427L18.0312 15.9394" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+                <defs>
+                  <clipPath id="clip0_12_37">
+                    <rect width="24" height="24" fill="white" transform="translate(0 17) rotate(-45)"/>
+                  </clipPath>
+                </defs>
+              </svg><p class="lg:pt-1 lg:p-4 text-white"></p></button>
+            </div>
+            
+        </div>
+    </footer>
+    
+</body>
+</html>
